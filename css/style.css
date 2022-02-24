@@ -1,0 +1,471 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Serif:wght@300;400&display=swap');
+/* root file  */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+/* main body */
+body {
+    font-family: 'Roboto Serif', sans-serif;
+  }
+
+
+  /*************** sticky header code  ************/
+  nav.sticky{
+    position: fixed;
+    background: #ffff;
+    padding: 12px 0 7px;
+    width: 100%;
+    height: 15%;
+    padding-top: 25px;
+  }
+
+  nav.sticky .logo,nav.sticky ul li a{
+    color:#000;
+  }
+
+  /******************END******************/
+
+ /* Navagation section  */
+ nav .header-wrapper{
+  display: flex;
+  justify-content: space-between;
+  max-width: 1446px;
+  margin: 0 auto;
+
+}
+/* Header Logo  */
+  .logo {
+    width: 160px;
+    height: 40px;
+    background: transparent;
+  }
+
+  nav {
+    padding: 40px 0px 10px;
+    position: absolute;
+    z-index: 999;
+    transition-duration: 0.3s;
+    transition-timing-function: ease-in-out;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+  }
+
+  /* navigation help section */
+  .need-help {
+    display: flex;
+    justify-content: space-between;
+    height: fit-content;
+    border-bottom: 2px solid;
+    font-size: 16px;
+    width: 22%;
+    margin-right: -84px;
+  }
+
+/* need help section */
+  select {
+    outline: none;
+    border: none;
+    background: transparent;
+    color: #ACADAB;
+    font-size: 16px;
+    font-weight: 600;
+    opacity: 1.41;
+  }
+
+  /* navbar a property */
+  .navbar a {
+    font-family: Poppins;
+    font-weight:600;
+    font-size: 15px;
+    text-align: left;
+    color: #000;
+    padding-left: 34px;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+h1 {
+  font-size: 43px;
+  line-height: 1.31;
+  letter-spacing: -0.25px;
+  font-weight: 400;
+  font-family: "Trirong, serif";
+}
+
+/* banner section */
+.banner {
+    background-image: url(../image/banner-img.png);
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: center center;
+    height: 100vh;
+}
+
+ /* .banner-title section */
+.banner-title {
+    position: absolute;
+    top: 40%;
+    left: 4%;
+}
+
+/* arrow image section */
+.arrow img {
+    width: 12px;
+    height: 11px;
+    background: transparent;
+    margin-top: 19px;
+}
+
+/* all boxes section */
+.boxes {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1400px;
+    margin: 0 auto;
+    margin-top: -172px; 
+}
+
+/* all boxes class section */
+.health, .cancer,.Athletes,.Cold,.Beauty {
+    width: 245px;
+    height: 358px;
+    padding: 25px 15px;
+}
+
+/* boxes of .cancer */
+.cancer {
+    border-radius: 20px;
+    color: white;
+    background: linear-gradient(#0894b8 0%, #77cbec 100%);
+    box-shadow: 5px 10px 5px rgb(0 0 0 / 16%);
+}
+
+/* boxes of .health */
+.health{
+    border-radius: 20px;
+    color: white;
+    background: linear-gradient(#45287e 0%, #dd266d 100%);
+    box-shadow: 5px 10px 5px rgb(0 0 0 / 16%);
+}
+
+ /* all boxes heading  */
+.boxes-heading {
+    font-family: Trirong;
+    font-weight: 500;
+    font-size: 23px;
+    color: #fff;
+}
+
+/* all boxes 2nd .boxes-heading */
+.learn {
+    font-family: Gilroy;
+    font-weight: 500;
+    font-size: 12px;
+    color: #fff;
+}
+
+/* css.boxes bottom .boxes-heading */
+.short-message {
+    width: 206px;
+    height: 45px;
+    font-size: 13px;
+    font-weight: 500;
+    font-family: Gilroy;
+    margin-top: 133px;
+}
+
+.Athletes {
+    border-radius: 20px;
+    color: white;
+    background:linear-gradient(#e52c69 0%, #ef7e4b 100%);
+    box-shadow: 5px 10px 5px rgb(0 0 0 / 16%);
+}
+
+.cancer-msg {
+    margin-top: 175px;
+}
+
+/* boxes of cold and flu  */
+.Cold {
+    border-radius: 20px;
+    color: white;
+    background:linear-gradient(#f08f44 0%, #f8c023 100%);
+    box-shadow: 5px 10px 5px rgb(0 0 0 / 16%);
+}
+
+/* css of beauty  */
+.Beauty {
+  border-radius: 20px;
+  color: white;
+  background:linear-gradient(#ae825a 0%, #e9cd9f  100%);  
+  box-shadow: 5px 10px 5px rgb(0 0 0 / 16%);
+}
+
+/* css of cold and flu  */
+.cold-flu {
+  margin-top: 120px;
+}
+
+/* css of .Beauty message  */
+.beauty-message {
+  margin-top: 105px;
+}
+
+/* css of nutrition */
+.nutrition {
+  width: 90%;
+  display: flex;
+  margin: 0 auto;
+  margin-top: 62px;
+}
+
+/* css of class left for nutrition  */
+.left {
+  width: 50%;
+}
+
+/* css class-left for h2  */
+h2 {
+    width: 617px;
+    height: 239px;
+    font-family: Trirong;
+    font-weight: 500;
+    font-size: 45px;
+    line-height: 65px;
+    text-align: left;
+    color: #000;
+}
+
+/* css class-left for .nutrition-1 */
+.nutrition-1 {
+  width: 615px;
+  height: 237px;
+  font-family: Trirong;
+  font-weight: 300;
+  font-size: 30px;
+  line-height: 45px;
+  text-align: left;
+  color: #696969;
+}
+
+/* css class for right  */
+.right {
+  width: 50%;
+  font-family: Trirong;
+  font-weight: 300;
+  font-size: 20px;
+  line-height: 35px;
+  text-align: left;
+  color: #000;
+}
+
+/* css of class right second title  */
+.second-title {
+  padding-top: 79px;
+}
+
+/* css for second banner  */
+.second-banner {
+  background-image: url(../image/banner-2.png);
+  width: 100%;
+  background-repeat: no-repeat;
+  background-position: center center;
+  padding: 200px 0 100px 0;
+  /* height: 100vh; */
+}
+
+.virus {
+    width: 895px;
+    height: 140px;
+    border-radius: 20px;
+    background: #fff;
+    box-shadow: 5px 10px 10px rgb(0 0 0 / 16%);
+    display: flex;
+}
+
+.covid {
+    border-radius: 12px 0px 0px 20px;
+    background: #000;
+    color: white;
+    width: 213px;
+}
+
+.covid-19  {
+  font-family: Poppins;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 28px;
+  width: 60%;
+  padding: 25px 10px 20px 30px;
+  color: #000;
+}
+
+.arrow-key,.arrow-head {
+  width: 29px;
+    height: 27px;
+    background: transparent;
+}
+
+.arrow-key {
+  padding-top:22px ;
+}
+
+.read {
+  padding-top: 28px;
+  padding-right: 13px;
+}
+
+.covid-guide {
+  background: transparent;
+  padding: 25px 5px 5px 25px;
+  width: 171px;
+  height: 89px;
+  font-family: Poppins;
+  font-weight: bold;
+  font-size: 25px;
+  line-height: 33px;
+  text-align: left;
+  color: #fff;
+}
+
+h3 {
+  font-size: 25px;
+  line-height: 33px;
+}
+
+.covid-msg {
+  font-size: 13px;
+  line-height: 33px;
+}
+
+.kill {
+  width: 708px;
+}
+
+.time-crunch {
+  background: linear-gradient(#45287e 0%, #dd266d 100%);
+}
+
+.vaccin {
+      width: 433px;
+    height: 89px;
+    font-family: Poppins;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 25px;
+    text-align: left;
+    color: #000;
+}
+
+.payments {
+ background: linear-gradient(#0b93b2 0%, #b6cf38 100%);
+}
+
+.second-banner {
+  display: grid;
+}
+
+.banner-discription {
+    display: grid;
+    padding: 124px 80px 5px;
+    margin-bottom: 30px;
+    grid-gap: 30px;
+}
+
+footer {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+  padding-top: 25px;
+  width: 90%;
+  grid-gap: 15px;
+  margin-left: 77px;
+  margin-bottom: 100px;
+  margin-top: 50px;
+  padding-top: 25px;
+}
+
+.logo-2 img {
+  width: 112.34px;
+  height: 145.97px;
+  background: transparent; 
+}
+
+/* .font-size {
+  font-weight: bold;
+  font-size:17px;
+  margin-bottom: 12px;
+} */
+
+.time span {
+  font-family: Trirong;
+  font-weight: bold;
+  font-size: 16px;
+  letter-spacing: -0.01em;
+  line-height: 25px;
+  text-align: left;
+  color: #000;
+  padding-right: 5px;
+}
+
+.email a{
+  color: #000;
+  font-weight: bold;
+}
+
+.phone a {
+  color: #000;
+}
+
+.address p {
+  line-height: 24px;
+}
+
+.social p {
+  line-height: 24px;
+}
+
+.font-size{
+  font-family: 'Poppins', sans-serif;
+  font-size: 17px;
+  text-transform: uppercase;
+  font-weight: 700;
+  line-height: 25px;
+  margin-top: 8px;
+  margin-bottom: 20px;
+}
+
+/* section of footer buttom  */
+.footer-btm {
+  border-top: 1px solid #b5b5b5;
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 15px;
+}
+
+.footer-left {
+  color: #959595;
+  font-size: 11px;
+  font-weight: 400;
+  text-transform: uppercase;
+}
+
+.footer-right {
+  font-size: 12px;
+  color: black;
+  font-weight: bold;
+}
+
+.email a:hover {
+  color: rgb(60, 60, 241);
+}
+
+.phone a:hover{
+  color: rgb(60, 60, 241);
+}
